@@ -624,7 +624,7 @@ if graficos['Ciclos_HM_m_todos']==1:
         plt.plot(Ciclos_eje_H[i]/1000,Ciclos_eje_M[i],color=color)
     plt.plot(Ciclos_eje_H[-1]/1000,Ciclos_eje_M[-1],'-',color='k') #Descancelacion
 
-plt.legend(title='Ciclos descartados',ncol=2,loc='best',fancybox=True)
+#plt.legend(title='Ciclos descartados',ncol=2,loc='best',fancybox=True)
 
 # # Configurar la barra de colores
 sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
